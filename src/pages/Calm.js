@@ -32,9 +32,6 @@ export function Calm() {
   return (
     <main className="main-container">
       {user ? <Nav /> : null}
-      <div className="calm-score">
-        &nbsp;{calm}% <div className="calm-word">Calm</div>
-      </div>
     </main>
   );
 }
